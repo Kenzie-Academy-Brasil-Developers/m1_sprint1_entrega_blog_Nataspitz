@@ -4,50 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Blog da kenzie</title>
 </head>
 <body>
-    <header>
+    <header class="Cabeçalho">
         <h1>Blog da Kenzie</h1>
     </header>
-    
-    <article>
-        <h2>Como aprender a programar do zero: passo a paasso</h2>
-        <p>Quer entrar em um mercado de trabalho que não para de crescer, mas não sabe por onde começar? 
-            Pela programação. A programação é uma das áreas que demandará quase 800 mil profissionais até 2025. </p>
-        <cite>Por Daniel Kringe</cite>
-        <p>
-            <a href="https://kenzie.com.br/blog/como-aprender-a-programar-2/" target="_blank">Blog completo</a>
-        </p>
+
+  <div class="Conteiner">
+    <article class="Post">
+        <div class="Post__conteudo">
+            <h2 class="Titulo 2">Como aprender a programar do zero: passo a paasso</h2>
+            <p>Quer entrar em um mercado de trabalho que não para de crescer, mas não sabe por onde começar? 
+                Pela programação. A programação é uma das áreas que demandará quase 800 mil profissionais até 2025. </p>
+
+            <div class="Autor">
+                <cite class="Autor">Por Daniel Kringe</cite>
+            </div>    
+            
+            <button class="Conteudo__botao">
+                <a href="https://kenzie.com.br/blog/como-aprender-a-programar-2/" target="_blank">Blog completo</a>
+            </button>
+        </div>
     </article>
 
-    <article>
-        <h2>Ciência da computação: o que é, grade curricular e como aprender</h2>
-        <p>Você já deve ter se perguntado o que faz um cientista da computação. Para quem está mais distante do TI, 
-            a ciência da computação se confunde com outras áreas, como a Engenharia e Sistemas de Informação</p>
-        <cite>Por Ugo Roveda</cite>
-        <p>
-            <a href="https://kenzie.com.br/blog/ciencia-computacao/" target="_blank"> Blog completo</a>
-        </p>
+    <article class="Post">
+        <div class="Post__conteudo">
+            <h2 class="Titulo 2">Ciência da computação: o que é, grade curricular e como aprender</h2>
+            <p>Você já deve ter se perguntado o que faz um cientista da computação. Para quem está mais distante do TI, 
+                a ciência da computação se confunde com outras áreas, como a Engenharia e Sistemas de Informação</p>
+
+            <div class="Autor">
+                <cite>Por Ugo Roveda</cite>
+            </div>    
+            
+            <button class="Conteudo__botao">
+                <a href="https://kenzie.com.br/blog/ciencia-computacao/" target="_blank"> Blog completo</a>
+            </button>
+        </div>
     </article>
 
-    <article>
-        <h2>Introdução à programação: quas são os conceitos fundamentais? </h2>
-        <p>á parou para pensar que tudo à sua volta foi programado por alguém? O computador que você usa, o seu celular, 
-            o aplicativo de mensagens e, até mesmo, os comandos do seu carro.</p>
-        <cite> Por Brunno Kringer</cite>
-        <p>
-            <a href="https://kenzie.com.br/blog/introducao-a-programacao/" target="_blank">Blog competo</a>
-        </p>
-    </article>
+    <article class="Post">
+        <div class="Post__conteudo">
+            <h2 class="Titulo 2">Introdução à programação: quas são os conceitos fundamentais? </h2>
+            <p>á parou para pensar que tudo à sua volta foi programado por alguém? O computador que você usa, o seu celular, 
+                o aplicativo de mensagens e, até mesmo, os comandos do seu carro.</p>
 
-    <section>
-        <h2>Deseja receber nossas notícias em primeira mão?</h2>
+            <div class="Autor">
+                <cite class="Autor"> Por Brunno Kringer</cite>
+            </div>
+   
+
+            <button class="Conteudo__botao">
+                <a href="https://kenzie.com.br/blog/introducao-a-programacao/" target="_blank">Blog competo</a>
+            </button>
+        </div>
+    </article>
+</div>    
+
+    <section class="Formulario">
+        <h2 id="Texto__formulario">Deseja receber nossas notícias em primeira mão?</h2>
         <p>Basta informar o seu melhor E-mail abaixo</p>
         <form>
             <label> E-mail</label>
-            <input type="email" placeholder="Ex...@gmail.com" required>
-            <button type="submit">Receber newsletter</button>
+            <input type="email" class="Formulario__input" placeholder="Ex...@gmail.com" required>
+            <button type="submit" class="Formulario__botao">Receber newsletter</button>
         </form>
     </section>
     
